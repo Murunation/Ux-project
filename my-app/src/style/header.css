@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  height: 81px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+/* leftside */
+.leftSide {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.leftSide .logo {
+  width: 220px;
+  height: 36px;
+}
+.leftSide .hire {
+  width: 90px;
+  height: 24px;
+}
+
+/* rightside */
+.rightSide {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightSide ul {
+  padding: 0;
+}
+.rightSide ul li {
+  list-style: none;
+}
+.rightSide a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.rightSide a:hover {
+  color: #5a47ab;
+  font-weight: 600;
+}

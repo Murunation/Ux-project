@@ -1,0 +1,80 @@
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.leftsideInfo {
+  width: 53%;
+}
+.main-title {
+  font-size: 52px;
+  color: #d05270;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 12px;
+}
+.sub-title {
+  font-size: 52px;
+  font-weight: 500;
+  color: #424242;
+  font-family: "Montserrat";
+  margin-top: 0%;
+  margin-bottom: 36px;
+}
+.leftsideInfo p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Montserrat";
+  color: #424242;
+}
+
+/* button */
+.social {
+  width: 101%;
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  width: 200px;
+  height: 60px;
+  background: #47acdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.link {
+  width: 200px;
+  height: 60px;
+  background: #1275b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.med {
+  width: 200px;
+  height: 60px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.twitter a {
+  text-decoration: none;
+  color: white;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+}
+.med a {
+  text-decoration: none;
+  color: white;
+}
+
+/* right side */
+.rightsideImg {
+  width: 45%;
+}
