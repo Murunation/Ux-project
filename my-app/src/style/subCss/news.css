@@ -1,0 +1,38 @@
+* {
+  font-family: "Montserrat";
+}
+.card {
+  width: 48%;
+  margin-bottom: 30px;
+}
+.card img {
+  width: 100%;
+  height: 400px;
+}
+.card .date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #424242;
+}
+.card h3 {
+  color: #d05270;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.card .descrip {
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card a {
+  text-decoration: none;
+  color: #d05270;
+}
+.news {
+  display: flex;
+}
